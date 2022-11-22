@@ -27,7 +27,7 @@
     "name": "w-richard"
   },
   "bugs": {
-    "url": "https://github.com/tronscanteam/tronscanteam-node-client/issues"
+    "url": "https://github.com/tronscan/tronscan-apiclients/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -58,7 +58,7 @@
   "name": "@tronscanteam/apiclients",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tronscan/tronscan-node-client.git"
+    "url": "git@github.com:tronscan/tronscan-apiclients.git"
   },
   "scripts": {
     "protoc:generate": "./protocol/protobuf-3.5.1/src/.libs/protoc --proto_path=protocol/protobuf-3.5.1/src --proto_path=protocol --grpc_out=./src/protocol --plugin=protoc-gen-grpc=`which grpc_tools_node_protoc_plugin` --js_out=import_style=commonjs,binary:src/protocol protocol/core/*.proto protocol/api/*.proto",
